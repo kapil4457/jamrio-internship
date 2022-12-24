@@ -1,0 +1,37 @@
+.main-header-div{
+    height:7rem;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding:0 5rem;
+    box-shadow : 0 0 10px 0px gray;
+}
+    .main-header-div > .options{
+        display:flex;
+        gap:4rem;
+        font-size:2rem;
+    }
+    .main-header-div > .options >a{
+
+        text-decoration:none;
+        color:black;
+        width:7rem;
+        height:3.5rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;    }
+
+    .active{
+        background-color: red;
+        color:white !important;
+        border-radius:10px;
+       
+       
+    }
+
+
+@media all and (max-width : 900px){
+    .main-header-div{
+        justify-content: center;
+    }
+}

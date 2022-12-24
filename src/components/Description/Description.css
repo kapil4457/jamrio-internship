@@ -1,0 +1,15 @@
+.desc-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-main-div > .desc-info {
+  width: 100%;
+  display: flex;
+  padding: 4rem;
+}
+
+.desc-main-div > .desc-info > img {
+  height: 4rem;
+}

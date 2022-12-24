@@ -1,0 +1,33 @@
+.main-home-div {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-home-div > h1 {
+  font-size: 3.5rem;
+  font-weight: 450;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+@media all and (max-width: 1300px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 900px) {
+  .main-home-div {
+    padding: 2rem;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
