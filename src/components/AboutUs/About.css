@@ -1,0 +1,46 @@
+.user-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-main-div > .user-info {
+  width: 100%;
+  display: flex;
+  padding-top: 4rem;
+  padding-left: 10rem;
+  align-items: center;
+  gap: 4rem;
+}
+
+.user-main-div > .user-info > img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: fill;
+  border-radius: 100%;
+}
+
+.user-main-div > .user-info > .info-main {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+.user-main-div > .user-info > .info-main > .info {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+}
+
+.user-main-div > .user-info > .info-main > .skills > div {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.user-main-div > .user-info > .info-main > .skills > div > span {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 550;
+}
