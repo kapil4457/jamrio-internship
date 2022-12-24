@@ -7,9 +7,39 @@
 .desc-main-div > .desc-info {
   width: 100%;
   display: flex;
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-left: 10rem;
+  align-items: center;
+  gap: 4rem;
 }
 
 .desc-main-div > .desc-info > img {
-  height: 4rem;
+  height: 30rem;
+  width: 30rem;
+  object-fit: fill;
+  border-radius: 100%;
+}
+
+.desc-main-div > .desc-info > .info-main {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+.desc-main-div > .desc-info > .info-main > .info {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+}
+
+.desc-main-div > .desc-info > .info-main > .tags > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.desc-main-div > .desc-info > .info-main > .tags > div > span {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 550;
 }
